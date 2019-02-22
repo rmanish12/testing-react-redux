@@ -5,7 +5,7 @@ import App from '../App'
 import CommentBox from '../CommentBox'
 import CommentList from '../CommentList'
 
- let wrapped
+let wrapped
 
 beforeEach(() => {
     wrapped = shallow(<App/>)
